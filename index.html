@@ -1,0 +1,202 @@
+<html class="dark" lang="id">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Web portofolio Celvin">
+    <meta name_alias="keyword" content="tailwindcss, CSS, tailwind, portfolio">
+    <meta name="author" content="Celvin">
+    <title>Portofolio | Celvin</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="output.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body class="font-sans bg-slate-900 text-slate-300">
+    <header class="bg-slate-900/75 backdrop-blur-lg sticky top-0 z-50 shadow-md ">
+      <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+        <div class="text-2xl font-bold text-cyan-500">
+          <a href="#home">Celvin</a>
+        </div>
+        
+        <div class="block lg:hidden">
+            <button class="flex items-center px-3 py-2 rounded text-slate-300 border border-slate-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+        </div>
+
+        <div class="hidden lg:flex lg:items-center lg:w-auto">
+          <div class="text-lg">
+            <a href="#home" class="block lg:inline-block mt-4 lg:mt-0 text-slate-300 hover:text-cyan-500 transition-colors duration-200 mr-6">
+                Home
+            </a>
+            <a href="#about" class="block lg:inline-block mt-4 lg:mt-0 text-slate-300 hover:text-cyan-500 transition-colors duration-200 mr-6">
+                About
+            </a>
+            <a href="#skill" class="block lg:inline-block mt-4 lg:mt-0 text-slate-300 hover:text-cyan-500 transition-colors duration-200 mr-6">
+                Skills
+            </a>
+            <a href="#portfolio" class="block lg:inline-block mt-4 lg:mt-0 text-slate-300 hover:text-cyan-500 transition-colors duration-200 mr-6">
+                Portfolio
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+	<section id="home" class="h-screen flex items-center justify-center text-center bg-slate-900">
+      <div class="container mx-auto px-6">
+        <p class="text-xl md:text-2xl text-cyan-500 mb-3">Hello, I'm</p>
+        <h1 class="text-5xl md:text-7xl font-bold text-slate-100 mb-5">Celvin</h1>
+        <h2 class="text-2xl md:text-3xl text-slate-400 mb-8">FullStack Developer</h2>
+        <p class="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
+          5th Semester Information System Student at Tarumanagara University 
+        </p>
+        <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+          Web Developer, Data & AI Enthuasiast
+        </p>
+        
+        <div class="flex justify-center space-x-6">
+           <a href="https://www.instagram.com/celvnns/" class="text-slate-400 hover:text-cyan-500 transition-colors duration-200 mx-4">
+              <i class="fa-2x fab fa-instagram"></i>
+           </a>
+           <a href="https://www.linkedin.com/in/celvin-celvin-929504238/" class="text-slate-400 hover:text-cyan-500 transition-colors duration-200 mx-4">
+              <i class="fa-2x fab fa-linkedin"></i>
+           </a>
+           <a href="https://github.com/GravityAir" class="text-slate-400 hover:text-cyan-500 transition-colors duration-200 mx-4">
+             <i class="fa-2x fab fa-github"></i>
+           </a>
+           </div>
+      </div>
+    </section>
+
+	<section id="about" class="py-24 bg-slate-900">
+      <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div>
+            <img src="img/diri.jpg" class="shadow-lg rounded-lg w-full max-w-md mx-auto"> 
+          </div>
+          <div>
+            <h2 class="text-4xl font-bold text-center text-slate-100 mb-12">About Me</h2>
+            <p class="text-lg text-slate-400 leading-relaxed mb-6">
+                Highly motivated Information Systems student with a strong current GPA of 3.84/4.00 and a clear focus
+                on Web Development. Proficient in HTML, CSS, Javascript, PHP, Laravel, coupled with strong problem
+                solving and excellent communication skills. Proven through experience in rapid prototyping during a
+                hackathon and leadership in student organization management. Seeking an internship or entry level role
+                to build efficient and user-friendly web solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="py-24 bg-slate-800"> <div class="container mx-auto px-6">
+        <div class="mb-16">
+          <h3 class="text-3xl font-semibold text-slate-100 flex items-center mb-8">
+            <i class="fas fa-graduation-cap text-cyan-500 mr-4"></i>
+            Education
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-slate-900 rounded-lg p-6 transform transition-transform duration-300 hover:scale-105 shadow-lg">
+              <p class="text-cyan-500 text-sm font-medium">2023 - 2027</p>
+              <h4 class="text-xl font-semibold text-slate-100 mt-2">University of Tarumangara</h4>
+              <p class="text-slate-400 mt-1">Bachelor of Information System</p>
+              <p class="text-slate-400 mt-1">Current GPA 3.84/4.00</p>
+            </div>
+            <div class="bg-slate-900 rounded-lg p-6 transform transition-transform duration-300 hover:scale-105 shadow-lg">
+              <p class="text-cyan-500 text-sm font-medium">2019 - 2022</p>
+              <h4 class="text-xl font-semibold text-slate-100 mt-2">SMAN 2 Jakarta</h4>
+              <p class="text-slate-400 mt-1">Sociology</p>
+              <p class="text-slate-400 mt-1">Grade 84/100</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-3xl font-semibold text-slate-100 flex items-center mb-8">
+            <i class="fas fa-award text-cyan-500 mr-4"></i>
+            Certification
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-slate-900 rounded-lg p-6 transform transition-transform duration-300 hover:scale-105 shadow-lg">
+              <h4 class="text-xl font-semibold text-slate-100 mt-2">Belajar Dasar Pemrograman Web (HTML5, CSS)</h4>
+              <p class="text-slate-400 mt-1">Dicoding Indonesia</p>
+            </div>
+            <div class="bg-slate-900 rounded-lg p-6 transform transition-transform duration-300 hover:scale-105 shadow-lg">
+              <h4 class="text-xl font-semibold text-slate-100 mt-2">Belajar Dasar Pemrograman JavaScript</h4>
+              <p class="text-slate-400 mt-1">Dicoding Indonesia</p>
+            </div>
+            <div class="bg-slate-900 rounded-lg p-6 transform transition-transform duration-300 hover:scale-105 shadow-lg">
+              <h4 class="text-xl font-semibold text-slate-100 mt-2">Memulai Pemrograman dengan Python</h4>
+              <p class="text-slate-400 mt-1">Dicoding Indonesia</p>
+            </div>
+            <div class="bg-slate-900 rounded-lg p-6 transform transition-transform duration-300 hover:scale-105 shadow-lg">
+              <h4 class="text-xl font-semibold text-slate-100 mt-2">Laravel</h4>
+              <p class="text-slate-400 mt-1">CourseNet</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skill" class="py-24 bg-slate-800">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-slate-100 mb-12">My Skills</h2>
+        <div class="flex flex-wrap justify-center max-w-4xl mx-auto">
+            <span class="bg-slate-700 text-slate-300 text-lg font-medium px-4 py-2 rounded-md m-2">HTML</span>
+            <span class="bg-slate-700 text-slate-300 text-lg font-medium px-4 py-2 rounded-md m-2">CSS</span>
+            <span class="bg-slate-700 text-slate-300 text-lg font-medium px-4 py-2 rounded-md m-2">Javascript</span>
+            
+            <span class="bg-slate-700 text-slate-300 text-lg font-medium px-4 py-2 rounded-md m-2">PHP</span>
+            <span class="bg-slate-700 text-slate-300 text-lg font-medium px-4 py-2 rounded-md m-2">Laravel</span>
+            <span class="bg-slate-700 text-slate-300 text-lg font-medium px-4 py-2 rounded-md m-2">MySQL</span>
+
+            <span class="bg-slate-700 text-slate-300 text-lg font-medium px-4 py-2 rounded-md m-2">Bootstrap</span>
+            <span class="bg-slate-700 text-slate-300 text-lg font-medium px-4 py-2 rounded-md m-2">TailwindCSS</span>
+        </div>
+      </div>
+    </section>
+	<section id="portfolio" class="py-24 bg-slate-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-slate-100">Portfolio</h1>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="bg-slate-800 shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">                    <div class="p-6">
+                        <p class="font-bold text-2xl mb-3 text-slate-100">Aplikasi Web Perencanaan Liburan</p>
+                        <p class="text-slate-400 text-base mb-5">Technology: HTML | CSS | Bootstrap | PHP | CRUD (PhpMyAdmin)</p>
+                        <div class="flex space-x-4">
+                          <a href="https://github.com/GravityAir/Vacation.git" class="text-cyan-500 hover:text-cyan-600 font-medium text-lg"><i class="fab fa-github mr-2"></i>Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-800 shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">                    <div class="p-6">
+                        <p class="font-bold text-2xl mb-3 text-slate-100">Aplikasi Web Nonton Film</p>
+                        <p class="text-slate-400 text-base mb-5">Technology: HTML | CSS | Bootstrap | Laravel | DBeaver</p>
+                        <div class="flex space-x-4">
+                          <a href="https://github.com/GravityAir/Netflix.git" class="text-cyan-500 hover:text-cyan-600 font-medium text-lg"><i class="fab fa-github mr-2"></i>Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<footer class="w-full mx-auto py-10 bg-slate-900 border-t border-slate-700 mt-12">
+		 <div class="text-center text-slate-400">
+		   © 2025 Celvin. All rights reserved.
+		 </div>
+    </footer>
+	</body>
+</html>
